@@ -1,19 +1,30 @@
 # Documentações de tags utilizadas neste projeto
-<!--
-<p> => Parágrafo
+<p> =>Parágrafo
 <h1> => Título
 <strong> => Negrito
 <em> =itálico
 
 <!DOCTYPE html> => Tag de informação
 <html lang="pt-br"> => Tag de conteúdo que marca todo o conteúdo no navegador. Página sendo entendida em português
-<meta charset="UTF-8> => passa informações para o navegador. Conjunto de caracteres
+<meta charset="UTF-8> => passa informações para o navegador. Conjunto de caracteres">
 <title> => Título da página do navegador
 <head> => Cabeçalho que passa informações para o navegador
 <body> => todas informações apresentados em exibição
--->
+<img id="" src="endereço"> => inserir uma imagem
+
 # CSS
-<!--
 <p style="font-size: pixels(px)"> Texto <\p>
 <h1 style="text-align: center"> => alinha o texto no centro
 <h1 style="text-align: center; font-size: pixels(px)">
+
+<link rel="stylesheet" href="style.css"> =>terceira forma de usar o CSS. adicionar no <head>
+Na folha do CSS colocar assim:
+
+body{ => background - toda a página de uma cor só}
+p {text-align: px; background => fundo do elemento}
+id="nome" => marcação específica para um elemento. #nome => Utilizado no arquivo CSS
+padding => espaçamento interno. Respiro entre a borda e o conteúdo. Podendo ser espaçado separadamente.
+marging => espaçamento externo.
+border => borda
+heigth = altura
+width => largura
