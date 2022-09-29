@@ -1,9 +1,10 @@
 # Documentações de tags utilizadas neste projeto
 <p> =>Parágrafo
-<h1> => Título
+<h1,h2,h3> => Título
 <strong> => Negrito
 <em> =itálico
 
+# HTML
 <!DOCTYPE html> => Tag de informação
 <html lang="pt-br"> => Tag de conteúdo que marca todo o conteúdo no navegador. Página sendo entendida em português
 <meta charset="UTF-8> => passa informações para o navegador. Conjunto de caracteres">
@@ -11,6 +12,10 @@
 <head> => Cabeçalho que passa informações para o navegador
 <body> => todas informações apresentados em exibição
 <img id="" src="endereço"> => inserir uma imagem
+<ul> => lista não ordenada <li> =>  **marca** cada item da lista
+<ol>  => lista ordenada
+<div> => separação entre seções.
+<header> => cabeçalho da ágina
 
 # CSS
 <p style="font-size: pixels(px)"> Texto <\p>
@@ -28,3 +33,8 @@ marging => espaçamento externo.
 border => borda
 heigth = altura
 width => largura
+class="nome" => utilizada para replicar o CSS em uma tag; CSS = .nome
+block => bloqueia o conteúdo da linha, mesmo diminuindo o tamanho, não permite inserir dados ao lado
+inline => não bloqueia conteúdo. Não permite alterar o padding e o marging
+display: inline-block. Ocupa o tamanho do conteúdo e permite mexer no espaço e alargamento
+vertical-align: top => alinhado pela linha de cima
