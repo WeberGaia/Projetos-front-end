@@ -10,12 +10,19 @@
 <meta charset="UTF-8> => passa informações para o navegador. Conjunto de caracteres">
 <title> => Título da página do navegador
 <head> => Cabeçalho que passa informações para o navegador
+<link rel="stylesheet" href="reset.css"> => Limpa o CSS do navegador
 <body> => todas informações apresentados em exibição
 <img id="" src="endereço"> => inserir uma imagem
 <ul> => lista não ordenada <li> =>  **marca** cada item da lista
 <ol>  => lista ordenada
 <div> => separação entre seções.
 <header> => cabeçalho da ágina
+* OBS: Cada ágina é um arquivo HTML
+<a href="página"> => Criar link para uma outra página
+<nav> => menu navegação
+
+
+
 
 # CSS
 <p style="font-size: pixels(px)"> Texto <\p>
@@ -38,3 +45,9 @@ block => bloqueia o conteúdo da linha, mesmo diminuindo o tamanho, não permite
 inline => não bloqueia conteúdo. Não permite alterar o padding e o marging
 display: inline-block. Ocupa o tamanho do conteúdo e permite mexer no espaço e alargamento
 vertical-align: top => alinhado pela linha de cima
+text-transform => uppercase
+font-weight: bold => Negrito
+text-decoration: none => tira o sublinhado; margin: 0(topo) 0(baixo) 0(direita) 0(esquerda)
+position: static => Ponto inicial sempre a esquerda
+position: relative => Muda o ponto inicial a partir do ponto inicial; Top, down, right e left
+position: absoluto=>Posicionamento em qq lugar da página (cabeçalho, página inteira...) Top, down, right e left
