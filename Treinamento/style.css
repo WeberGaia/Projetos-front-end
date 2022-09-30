@@ -12,3 +12,8 @@ background-color: black;
     font-weight: bold;
     text-align: center;
 }
+
+#image_back{
+    width: auto;
+    height: auto;
+}
