@@ -16,14 +16,11 @@
 <ul> => lista não ordenada <li> =>  **marca** cada item da lista
 <ol>  => lista ordenada
 <div> => separação entre seções.
-<header> => cabeçalho da ágina
+<header> => cabeçalho da Página
 * OBS: Cada ágina é um arquivo HTML
 <a href="página"> => Criar link para uma outra página
 <nav> => menu navegação
-
-
-
-
+===========================================================================================================================
 # CSS
 <p style="font-size: pixels(px)"> Texto <\p>
 <h1 style="text-align: center"> => alinha o texto no centro
@@ -51,3 +48,6 @@ text-decoration: none => tira o sublinhado; margin: 0(topo) 0(baixo) 0(direita) 
 position: static => Ponto inicial sempre a esquerda
 position: relative => Muda o ponto inicial a partir do ponto inicial; Top, down, right e left
 position: absoluto=>Posicionamento em qq lugar da página (cabeçalho, página inteira...) Top, down, right e left
+==========================================================================================================================
+OBSERVAÇÕES
+* OBS: Sempre que for criar um menu de opções criar dentro de uma lista <ul><li>
