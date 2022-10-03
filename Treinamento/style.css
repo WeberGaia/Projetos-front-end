@@ -24,7 +24,9 @@ body{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,24,82,1) 50%, rgba(0,0,0,1) 100%);
 }
-
+#nav a:hover{
+    color: blueviolet;
+}
 .list1{
     display: inline;
 }
