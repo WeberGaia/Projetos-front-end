@@ -20,7 +20,10 @@
 * OBS: Cada ágina é um arquivo HTML
 <a href="página"> => Criar link para uma outra página
 <nav> => menu navegação
+<main> => conteúdo principal (lista de serviços, por exemplo)
+<footer> => Rodapé
 ===========================================================================================================================
+
 # CSS
 <p style="font-size: pixels(px)"> Texto <\p>
 <h1 style="text-align: center"> => alinha o texto no centro
@@ -48,6 +51,18 @@ text-decoration: none => tira o sublinhado; margin: 0(topo) 0(baixo) 0(direita) 
 position: static => Ponto inicial sempre a esquerda
 position: relative => Muda o ponto inicial a partir do ponto inicial; Top, down, right e left
 position: absoluto=>Posicionamento em qq lugar da página (cabeçalho, página inteira...) Top, down, right e left
+box-sizing: border-box => Espaçamento lateral dentro do % da largura(width)
+border-color, border-width, border-style; border: tamanho, tipo, cor
+border-radius: 10px => arredondamento de borda;
+id ou classe elemento:hover => alterar o css quando passar o mouse em cima do link
+id ou classe elemento:active => muda o css quando o elemento é clicado
+id ou classe elemento:hover elemento a ser mudado => altera o css do elemento 
+---------------------------------------------------------------------------------------------------
+Rodapé
+url("")
+Caracteres especiais: unicode site
 ==========================================================================================================================
 OBSERVAÇÕES
-* OBS: Sempre que for criar um menu de opções criar dentro de uma lista <ul><li>
+* OBS: Sempre que for criar um menu de opções criar dentro de uma lista <ul><li>;
+* OBS 2: Colocar as configurações como título, imagem e Parágrafo dentro da <li>;
+* OBS 3: Para o Rodapé, para colocar uma imagem não utiliza o HTML, mas sim o CSS a partir da tag url("")
