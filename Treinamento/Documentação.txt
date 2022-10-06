@@ -54,6 +54,7 @@ position: absoluto=>Posicionamento em qq lugar da página (cabeçalho, página i
 box-sizing: border-box => Espaçamento lateral dentro do % da largura(width)
 border-color, border-width, border-style; border: tamanho, tipo, cor
 border-radius: 10px => arredondamento de borda;
+border: 2px cor solid
 id ou classe elemento:hover => alterar o css quando passar o mouse em cima do link
 id ou classe elemento:active => muda o css quando o elemento é clicado
 id ou classe elemento:hover elemento a ser mudado => altera o css do elemento 
@@ -61,8 +62,33 @@ id ou classe elemento:hover elemento a ser mudado => altera o css do elemento
 Rodapé
 url("")
 Caracteres especiais: unicode site
+---------------------------------------------------------------------------------------------------
+contato.html
+<form> => tag formulário; <input type = "text">
+<label for="etiqueta"> => etiqueta para input
+<input type="submit" value="Enviar formulário"> => Enviar os dados(botão)
+<textarea cols="30" rows="10"> => caixa com multiplas linhas.
+<input type="radio" name="contato"value="" id=""> => selecionador redondo
+<select> => campo do tipo seletor; <option> => colocar as opções
+<input type="submit" value="Enviar formulário" required(obrigatório) placeholder=""(texto no campo)>
+<fieldset> => referencia de um ou mais campos de um dado específico. <legend>
+<img src+"" alt="descrição da figura">
+transition => CSS. Mudar a cor do background suavemente
+cursor: point => altera de seta para mão.CSS
+transform: rotate () scale(1.2)(20%)
+<table> => tabela. <tr> => table rows. <td> => conteúdo das linhas. <thead> => cabeçalho da tabela. <tbody> => conteúdo das linhas
+colspan => juntar células e montar um visual diferente. Por exemplo, quando uma linha, que deveria ter 5 células, passa a mostrar só "uma célula".
+A tag table, que representa a tabela
+A tag tr, que representa a linha da tabela
+A tag td, que representa a célula da tabela
+A tag thead, que representa o cabeçalho da tabela
+A tag tbody, que representa o corpo da tabela
+A tag th, que representa a célula do cabeçalho da tabela
+A tag tfoot, que representa o rodapé da tabela
 ==========================================================================================================================
 OBSERVAÇÕES
 * OBS: Sempre que for criar um menu de opções criar dentro de uma lista <ul><li>;
 * OBS 2: Colocar as configurações como título, imagem e Parágrafo dentro da <li>;
 * OBS 3: Para o Rodapé, para colocar uma imagem não utiliza o HTML, mas sim o CSS a partir da tag url("")
+* OBS 4: Sempre utiliza a tag label com input;
+* OBS 5: se colocar o input dentro do label, a marcação pode ser feita a partir do texto
