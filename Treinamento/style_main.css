@@ -1,0 +1,88 @@
+/* CABEÇALHO DO PROJETO*/
+header{
+    background: #5e17eb;
+    padding: 20px 0;
+}
+#caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo{
+    width: 25%;
+}
+
+nav{
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+.menu_main{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+/*-----------------------------------------------------------*/
+/* Parte principal do projeto*/
+.missao{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+} /* CAIXA EXTERNA QUE ENGLOBA*/
+
+.missao li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+}/* CRIANDO A BORDA E COLOCANDO LADO A LADO*/
+
+.missao h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}/* FONTE H2 E ALINHAMENTO*/
+
+.missao p{
+    margin-top: 15px;
+}/* ESPAÇAMENTO DO H2*/
+
+.missao li:hover{
+    border-color: yellow;
+    transform: scale(1.05);
+    transition: 1s all;
+}/* AO PASSAR O CURSOR, MUDA A COR DA BORDA E AUMENTA A ESCALA*/
+
+.missao li:active{
+    border-color: red;
+}/* AO CLICAR, MUDA A BORDA PARA VERMELHA */
+.rodape1{
+    margin-top: 3.3%;
+    color: white;
+    font-weight: bold;
+}
+#rodape{
+    text-align: center;
+    background: #5e17eb;
+}
+#fig2{
+    width: 20%;
+}
